@@ -14,7 +14,7 @@ def convert_to_binary():
         texte = input("Entrez une chaîne de caractères : ")
         binaire_texte = string_to_binary(texte)
         longueur = len(texte)
-        print(f"Le texte '{texte}' avec une longueur de:{longueur} caractères en binaire est : {binaire_texte}")
+        print(f"Le texte '{texte}' avec une longueur de:{longueur} caractères qui se traduit en binaire par : {binaire_texte}")
     else:
         print("Choix invalide")
 
