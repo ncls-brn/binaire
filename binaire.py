@@ -12,10 +12,15 @@ def convert_to_binary():
         print(f"Le nombre {nombre} en binaire est : {int_to_binary(nombre)}")
     elif choix == '2':
         texte = input("Entrez une chaîne de caractères : ")
-        print(f"Le texte '{texte}' en binaire est : {string_to_binary(texte)}")
+        binaire_texte = string_to_binary(texte)
+        longueur = len(texte)
+        print(f"Le texte '{texte}' avec une longueur de:{longueur} caractères en binaire est : {binaire_texte}")
     else:
         print("Choix invalide")
 
 if __name__ == "__main__":
     convert_to_binary()
+
+  
+
 
