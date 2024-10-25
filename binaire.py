@@ -47,7 +47,7 @@ def convert_to_binary():
         guess_and_convert_binary(binaire)
 
     else:
-        print("Choix invalide")
+        print("Choix invalide!")
 
 if __name__ == "__main__":
     convert_to_binary()
