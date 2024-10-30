@@ -40,7 +40,7 @@ def convert_to_binary():
         texte = input("Entrez une chaîne de caractères : ")
         binaire_texte = string_to_binary(texte)
         longueur = len(texte)
-        print(f"Le texte '{texte}' avec une longueur de {longueur} caractères se traduit en binaire par : {binaire_texte}")
+        print(f"Le texte '{texte}' ,avec une longueur de {longueur} caractères se traduit en binaire par : {binaire_texte}")
 
     elif choix == '3':
         binaire = input("Entrez un code binaire : ")
