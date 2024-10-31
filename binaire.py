@@ -27,7 +27,7 @@ def guess_and_convert_binary(binaire):
             nombre = binary_to_int(binaire)
             print(f"Le code binaire '{binaire}' correspond à l'entier : {nombre}")
         except ValueError:
-            print("Erreur : Le code binaire n'est pas valide pour une conversion en entier.")
+            print("Erreur : Le code binaire n'est pas valide, pour une conversion en entier.")
 
 def convert_to_binary():
     choix = input("Tapez '1' pour convertir un entier en binaire, '2' pour convertir une chaîne de caractères en binaire, ou '3' pour convertir un code binaire sans spécifier le type : ")
