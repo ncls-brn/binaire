@@ -37,7 +37,7 @@ def convert_to_binary():
         print(f"Le nombre {nombre} en binaire est : {int_to_binary(nombre)}")
 
     elif choix == '2':
-        texte = input("Entrez une chaîne de caractères : ")
+        texte = input("Entrez une chaîne de caractères: ")
         binaire_texte = string_to_binary(texte)
         longueur = len(texte)
         print(f"Le texte '{texte}' ,avec une longueur de {longueur} caractères se traduit en binaire par : {binaire_texte}")
