@@ -1,5 +1,5 @@
 def int_to_binary(number):
-    return bin(number)[2:]  # Supprime le préfixe "0b"
+    return bin(number)[2:].zfill(8)
 
 def string_to_binary(chaine):
     return ' '.join(format(ord(char), '08b') for char in chaine)
