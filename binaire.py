@@ -42,7 +42,7 @@ def convert_to_binary():
             texte = binary_to_string(binaire_texte)
             print(f"Le code binaire '{binaire_texte}' correspond au texte : '{texte}'")
         except ValueError:
-            print("Erreur : Le code binaire n'est pas valide pour une conversion en texte.")
+            print("Erreur : Le code binaire n'est pas valide pour une conversion en texte!")
 
     else:
         print("Choix invalide!")
