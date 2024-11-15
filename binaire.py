@@ -34,7 +34,7 @@ def convert_to_binary():
             nombre = binary_to_int(binaire)
             print(f"Le code binaire '{binaire}' correspond à l'entier : {nombre}")
         except ValueError:
-            print("Erreur : Le code binaire n'est pas valide pour une conversion en entier.")
+            print("Erreur : Le code binaire n'est pas valide pour une conversion en entier!")
 
     elif choix == '4':
         binaire_texte = input("Entrez un code binaire pour convertir en texte (8 bits par caractère, séparés par des espaces) : ")
