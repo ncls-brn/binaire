@@ -45,7 +45,7 @@ def convert_to_binary():
             print("Erreur : Le code binaire n'est pas valide pour une conversion en texte!")
 
     else:
-        print("Choix invalide!")
+        print("Choix invalide!!")
 
 if __name__ == "__main__":
     convert_to_binary()
